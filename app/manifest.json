@@ -1,8 +1,8 @@
 {  
-  "name": "No Queue",  
-  "short_name": "No Queue",  
+  "name": "Reservation Web",  
+  "short_name": "PWReserve",  
   "start_url": "/index.html",  
   "display": "standalone",  
-  "gcm_sender_id": "1075559327952",  
+  "gcm_sender_id": "866563137437",  
   "gcm_user_visible_only": true  
 }
