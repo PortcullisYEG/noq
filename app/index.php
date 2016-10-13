@@ -13,7 +13,8 @@ CREATE TABLE `queues` (
 header('Content-Type: application/json');
 header("Access-Control-Allow-Origin: *");
 
-$mysqli = new mysqli( null, 'root', '', 'no_queue', null, '/cloudsql/shaped-apogee-87811:app-queues' );
+$mysqli = new mysqli( null, 'root', '', 'no_queue', null, 'https://classifieds1-1171.firebaseio.com/
+' );
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $method = $_SERVER['REQUEST_METHOD'];
 $params = array();
